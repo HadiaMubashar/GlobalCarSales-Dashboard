@@ -1,0 +1,13 @@
+prefix=E:/Data Projects/Cars Sales Dashboard/venv/Library
+exec_prefix=E:/Data Projects/Cars Sales Dashboard/venv/Library
+libdir=E:/Data Projects/Cars Sales Dashboard/venv/Library/lib
+sharedlibdir=E:/Data Projects/Cars Sales Dashboard/venv/Library/lib
+includedir=E:/Data Projects/Cars Sales Dashboard/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
