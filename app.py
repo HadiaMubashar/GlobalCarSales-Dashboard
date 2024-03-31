@@ -16,7 +16,7 @@ st.markdown("##")
 def load_data(path: str):
     df = pd.read_csv(path)
     return df
-df = load_data('E:\Data Projects\Cars Sales Dashboard\Passenger_Cars_Sales.csv')
+df = load_data('Passenger_Cars_Sales.csv')
 
 # ---------------- Preprocess Data ------------------
 def preprocess_data(df):
